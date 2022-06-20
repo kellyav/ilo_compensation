@@ -14,12 +14,12 @@ knitr::opts_chunk$set(echo = TRUE)
 In this RMarkdown, we will explore:
 1. The relationship between weekly working hours and monetary compensation in European countries, according to the International Labour Organization (ILO). 
 
-2. Communicating with the tidyverse. They say that a picture is worth a thousand words. Successfully promoting your data analysis is not only a matter of accurate and effective graphics, but also of aesthetics and uniqueness. 
+2. Communicating with the tidyverse - Successfully promoting data analysis is not only a matter of accurate and effective graphics, but also of aesthetics and uniqueness. 
 
 
-More specifically, it will show how to leverage the power of ggplot2 themes for producing publication-quality graphics that stick out from the mass of boilerplate plots out there. And, how to tweak and get the most out of ggplot2 in order to produce unconventional plots that draw attention on social media. 
+More specifically, we will show that ggplot2 themes for producing publication-quality graphics can stick out from the mass of boilerplate plots. And, this will attempt to get the most out of ggplot2, as an experiment to produce unconventional plots that draw attention on social media. 
 
-In the end, combining this knowledge will produce a slick and custom-styled report with RMarkdown and CSS – all of that within the powerful tidyverse.
+In the end, this should produce a slick and custom-styled report with RMarkdown and CSS – all of that within the powerful tidyverse.
 
 
 ```{r Load Data}
