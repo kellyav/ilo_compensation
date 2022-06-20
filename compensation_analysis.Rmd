@@ -153,7 +153,7 @@ ilo_data <- ilo_data %>% filter(year=="1996" | year=="2006")
 The data is now filtered so it only contains the years 1996 and 2006 – a good time range for comparison.
 
 ```{r }
-# Again, save the plot object into a variable so you can save typing later on
+# save the plot object into a variable 
 ilo_plot <- ggplot(ilo_data, aes(x = working_hours, y = hourly_compensation)) +
   geom_point(aes(color = ifelse(hourly_compensation < 25, "Not Paid Enough", "Compensated More Fairly"))) +
    labs(
@@ -258,7 +258,7 @@ ilo_dot_plot <- ilo_dot_plot +
     subtitle = "Working hours in European countries, development since 1996",
     caption = "Data source: ILO, 2017"
   ) +
-  # Apply your theme
+  # Apply new theme
   theme_ilo() +
   # Change the viewport
   coord_cartesian(xlim = c(25, 41)) 
